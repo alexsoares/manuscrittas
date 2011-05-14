@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Manuscrittas - Cursos e acompanhamentos: <%= controller.action_name %></title>
+    <%= stylesheet_link_tag 'scaffold','main','menu2' %>
+    <%= javascript_include_tag 'jquery-1.4.2.js','jquery.tools.min.js','jquery-ui','jrails','application.js' %>
+
+</head>
+<body>
+  <div id="tudo">
+    <div id="cabecalho">
+       Manuscrittas
+    </div>
+    <div id="tabsF">
+      <ul>
+        <!-- CSS Tabs -->
+        <li><%= link_to "<span>Home</span>", root_path%></li>
+        <li><%= link_to "<span>Serviço</span>", servico_path%></li>
+        <li><a href="Services.html"><span>Services</span></a></li>
+        <li><a href="Support.html"><span>Support</span></a></li>
+        <li id="current"><a href="Order.html"><span>Order</span></a></li>
+        <li><a href="News.html"><span>News</span></a></li>
+        <li><a href="About.html"><span>About</span></a></li>
+      </ul>
+    </div>
+    <div id="conteudo">
+      <div id="body_content" style="float:left"><%= yield %></div>
+      <div id="body_img" style="float:right"><%= render "shared/folder"%></div>
+    </div>
+    <div id="rodape"></div>
+
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+body { background: #EEE;
+color: #000; font-size: 11px;
+font-family: Verdana, sans-serif;
+margin: 0; padding: 0;
+text-align: center;
+}
+a:hover {
+  color:white;
+  background-color:gray;
+}
+
+#tudo {
+background: #FFF;
+border: #000 1px solid;
+width: 750px;
+margin: auto;
+text-align: left;
+}
+#cabecalho { background: silver; font-size: 18px;  padding: 10px; height:20px; }
+#conteudo {
+	clear: both;
+	font-size: 12px;
+	padding: 5px;
+	text-align: center;
+	background: white;
+	}
+
+#body_img {
+border: #000 1px solid;
+}
+
+#body_content {
+
+}
+
+
+#rodape {
+	clear: both;
+	background: #000;
+	color: #FFF;
+	padding: 5px;
+	text-align: center;
+	}
+
