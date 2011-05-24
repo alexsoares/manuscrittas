@@ -1,8 +1,9 @@
 body { background: #EEE;
 color: #000; font-size: 11px;
 font-family: Verdana, sans-serif;
-margin: 0; padding: 0;
+margin: 0;
 text-align: center;
+padding-top:100px;
 }
 a:hover {
   color:white;
@@ -16,7 +17,15 @@ width: 750px;
 margin: auto;
 text-align: left;
 }
-#cabecalho { background: silver; font-size: 18px;  padding: 10px; height:20px; }
+#cabecalho {
+    text-align:center;
+    background-repeat:no-repeat;
+    background-color:#efefef;
+    padding-bottom: 15px;
+    height:80px;
+    background-position:center;
+    font-family:"RichardMurray","URW Chancery L";
+    }
 #conteudo {
 	clear: both;
 	font-size: 12px;
@@ -24,14 +33,6 @@ text-align: left;
 	text-align: center;
 	background: white;
 	}
-
-#body_img {
-border: #000 1px solid;
-}
-
-#body_content {
-
-}
 
 
 #rodape {
